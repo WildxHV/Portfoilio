@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
+        rel="stylesheet">
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-contents">
+            <div id="logo">
+                <img src="assets/png/logo2.png" alt="">
+            </div>
+            <div class="navigations">
+                <a href="#" onclick="toggleMenu(true)">
+                    <img class="show-menu" src="assets/svg/ham-menu.svg" alt="">
+                </a>
+
+                <a href="#" onclick="toggleMenu(false)" class="close-menu">
+                    <img src="assets/svg/ham-menu-close.svg" alt="">
+                </a>
+
+                <ul id="navitems" class="navitems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="landing">
+            <div class="landing-content">
+
+                <h1>Hey! My Name is Harshvardhan Singh Sisodia</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo assumenda cum veniam enim
+                    necessitatibus,
+                    aspernatur et,</p>
+                <button><a href="#projects">Projects</a></button>
+            </div>
+
+            <div class="socials">
+
+                <ul>
+                    <li><a href=""><img src="assets/png/linkedin-ico.png" alt="LinkedIn"></a></li>
+                    <li><a href=""><img src="assets/png/github-ico.png" alt="Github"></a></li>
+                    <li><a href=""><img src="assets/png/twitter-ico.png" alt="Twitter"></a></li>
+                    <li><a href=""><img src="assets/png/yt-ico.png" alt="Youtube"></a></li>
+                    <li><a href=""><img src="assets/png/insta-ico.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="about" id="about">
+            <div class="div-heading">
+
+                <h1>ABOUT ME</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod
+                    deserunt eius sapiente
+                </p>
+            </div>
+            <div class="info">
+                <div>
+                    <h2>Get to know me!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, mollitia itaque similique totam
+                        quasi enim cumque sunt quam repellendus dolore. Dolor nostrum culpa doloremque illo fugit, velit
+                    </p>
+                    <p>Animi minima laborum distinctio odio est consequatur! Suscipit, ullam sapiente. Repellat totam
+                        quas asperiores ducimus labore explicabo quibusdam unde dolor fuga, rem neque.</p>
+                    <button class="contact-btn">CONTACT</button>
+                </div>
+                <div class="skills">
+                    <h2>My Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>GIT</li>
+                        <li>Wordpress</li>
+                        <li>Google Ads</li>
+                        <li>SAAS</li>
+                        <li>React</li>
+                        <li>Shopify</li>
+                        <li>Android</li>
+                        <li>IOS</li>
+                        <li>Django</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <div class="div-heading">
+                <h1>PROJECTS</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod
+                    deserunt eius sapiente.</p>
+
+            </div>
+            <div class="project">
+                <div class="product-img">
+                    <img src="assets/jpeg/project-mockup-example.jpeg" alt="Laptop img">
+                </div>
+                <div class="project-details">
+                    <h2>Project 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo quae quod
+                        deserunt eius sapiente praesentium.</p>
+                    <button class="product-btn"><a href="project.html">CASE STUDY</a></button>
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="product-img">
+                    <img src="assets/jpeg/project-mockup-example.jpeg" alt="Laptop img">
+                </div>
+                <div class="project-details">
+                    <h2>Project 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo quae quod
+                        deserunt eius sapiente praesentium.</p>
+                    <button class="product-btn"><a href="project.html">CASE STUDY</a></button>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="product-img">
+                    <img src="assets/jpeg/project-mockup-example.jpeg" alt="Laptop img">
+                </div>
+                <div class="project-details">
+                    <h2>Project 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo quae quod
+                        deserunt eius sapiente praesentium.</p>
+                    <button class="product-btn"><a href="project.html">CASE STUDY</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" id="contact">
+            <div class="contact-heading">
+
+                <h1>CONTACT</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod
+                    deserunt eius sapiente</p>
+            </div>
+
+            <div class="form">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="" placeholder="Enter Your Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Enter Your Message"></textarea>
+
+                    <button>SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-about">
+                <h3>Harshvardhan Singh Sisodia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora explicabo quae quod deserunt
+                </p>
+
+            </div>
+            <div class="footer-social">
+                <h3>SOCIAL</h3>
+                <ul>
+                    <li><a href=""><img src="assets/png/linkedin-ico.png" alt="LinkedIn"></a></li>
+                    <li><a href=""><img src="assets/png/github-ico.png" alt="Github"></a></li>
+                    <li><a href=""><img src="assets/png/twitter-ico.png" alt="Twitter"></a></li>
+                    <li><a href=""><img src="assets/png/yt-ico.png" alt="Youtube"></a></li>
+                    <li><a href=""><img src="assets/png/insta-ico.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+
+
+            <p>&#169; Copyright 2023. Made by Harshvardhan Singh Sisodia</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu(show) {
+            var navitems = document.getElementById('navitems');
+            var showMenu = document.querySelector('.show-menu');
+            var closeMenu = document.querySelector('.close-menu');
+
+            if (show) {
+                navitems.classList.add('open');
+                showMenu.classList.add('open');
+                closeMenu.classList.add('open');
+            } else {
+                navitems.classList.remove('open');
+                showMenu.classList.remove('open');
+                closeMenu.classList.remove('open');
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

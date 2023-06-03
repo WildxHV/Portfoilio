@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-contents">
+            <div id="logo">
+                <img src="assets/png/logo2.png" alt="">
+            </div>
+            <div class="navigations">
+                <a href="#" onclick="toggleMenu(true)">
+                    <img class="show-menu" src="assets/svg/ham-menu.svg" alt="">
+                </a>
+
+                <a href="#" onclick="toggleMenu(false)" class="close-menu">
+                    <img src="assets/svg/ham-menu-close.svg" alt="">
+                </a>
+
+                <ul id="navitems" class="navitems">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./index.html#about">ABOUT</a></li>
+                    <li><a href="./index.html#projects">PROJECTS</a></li>
+                    <li><a href="./index.html#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="landing">
+            <div class="landing-content">
+
+                <h1>PROJECT 1</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam doloribus nesciunt perspiciatis
+                    cupiditate?</p>
+                <button><a href="">LIVE LINK</a></button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="project-section">
+        <div class="demo">
+            <img src="assets/jpeg/project-mockup-example.jpeg" alt="demo-image">
+        </div>
+
+        <div id="project-details">
+
+
+
+
+            <div class="overview">
+                <h2>Project Overview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias tenetur minus quaerat aliquid,
+                    aut provident blanditiis, deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
+                    laborum corrupti ullam rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
+                    tenetur minus quaerat aliquid, aut provident blanditiis, deleniti aspernatur ipsam eaque veniam
+                    voluptatem corporis vitae mollitia laborum corrupti ullam rem?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias tenetur minus quaerat aliquid,
+                    aut provident blanditiis, deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
+                    laborum corrupti ullam rem?</p>
+
+            </div>
+
+            <div class="tools">
+                <h2>Tools Used</h2>
+
+                <div class="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>GIT</li>
+                        <li>Wordpress</li>
+                        <li>Google Ads</li>
+                        <li>SAAS</li>
+                        <li>React</li>
+                        <li>Shopify</li>
+                        <li>Android</li>
+                        <li>IOS</li>
+                        <li>Django</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <h2>See Live</h2>
+
+                <div class="btns">
+                    <button class="btn-1">LIVE LINK</button>
+                    <button class="btn-2">CODE LINK</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-about">
+                <h3>Harshvardhan Singh Sisodia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora explicabo quae quod deserunt
+                </p>
+
+            </div>
+            <div class="footer-social">
+                <h3>SOCIAL</h3>
+                <ul>
+                    <li><a href=""><img src="assets/png/linkedin-ico.png" alt="LinkedIn"></a></li>
+                    <li><a href=""><img src="assets/png/github-ico.png" alt="Github"></a></li>
+                    <li><a href=""><img src="assets/png/twitter-ico.png" alt="Twitter"></a></li>
+                    <li><a href=""><img src="assets/png/yt-ico.png" alt="Youtube"></a></li>
+                    <li><a href=""><img src="assets/png/insta-ico.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+
+
+            <p>&#169; Copyright 2023. Made by Harshvardhan Singh Sisodia</p>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleMenu(show) {
+        var navitems = document.getElementById('navitems');
+        var showMenu = document.querySelector('.show-menu');
+        var closeMenu = document.querySelector('.close-menu');
+
+        if (show) {
+            navitems.classList.add('open');
+            showMenu.classList.add('open');
+            closeMenu.classList.add('open');
+        } else {
+            navitems.classList.remove('open');
+            showMenu.classList.remove('open');
+            closeMenu.classList.remove('open');
+        }
+    }
+
+
+</script>
+
+</html>
