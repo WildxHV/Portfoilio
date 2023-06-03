@@ -302,6 +302,7 @@ a {
   }
   .about .info {
     flex-direction: column;
+    width: 90%;
     margin-left: 50px;
   }
   .about .info div {
