@@ -303,7 +303,7 @@ a {
   .about .info {
     flex-direction: column;
     width: 90%;
-    margin-left: 50px;
+    margin-left: 0;
   }
   .about .info div {
     width: 90%;
@@ -530,6 +530,12 @@ a {
     width: 90%;
   }
 }
+@media screen and (max-width: 450px) {
+  #contact .form {
+    width: 95%;
+    margin: 0;
+  }
+}
 
 .form form {
   width: 85%;
@@ -541,6 +547,12 @@ a {
 @media screen and (max-width: 1000px) {
   .form form {
     width: 80%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .form form {
+    width: 75%;
   }
 }
 
@@ -586,6 +598,12 @@ textarea {
   #contact .form form button {
     width: 34%;
     padding: 1.2rem 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  #contact .form form button {
+    width: 42%;
+    padding: 1rem 1.8rem;
   }
 }
 
