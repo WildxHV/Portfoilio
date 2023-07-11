@@ -41,8 +41,7 @@ a {
 }
 
 #logo {
-  padding: 3px;
-  margin-left: 20px;
+  margin-top: -20px;
   width: 100px;
  
 }
@@ -786,8 +785,13 @@ footer .copyright {
   }
 }
 
+
+
 #project-details .btn-1 {
   background: #0062b9;
+  color: #fff;
+}
+#project-details .btn-1 a{
   color: #fff;
 }
 
