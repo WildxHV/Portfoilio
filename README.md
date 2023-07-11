@@ -2,7 +2,7 @@
 Porfolio Website Template
 
 ## Demo
-[View Live](https://hv-portfolio.netlify.app/)
+[View Live](https://harshvardhan.works/)
 
 ## Screenshots
 
