@@ -334,6 +334,10 @@ a {
   border: none;
   margin-top: 15px;
 }
+.about .info .contact-btn a{
+  color: #fff;
+
+}
 
 .about .skills {
   display: flex;
