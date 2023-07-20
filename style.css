@@ -174,7 +174,7 @@ a {
   }
 }
 
-.landing-content h1 {
+.landing-content h2 {
   font-size: 2.3rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -265,7 +265,7 @@ a {
   background: #0062b9;
 }
 
-.div-heading h1 {
+.div-heading h2 {
   font-size: 2.5rem;
   font-weight: 750;
   text-transform: uppercase;
@@ -502,7 +502,7 @@ a {
   background: #ffffff;
 }
 
-.contact-heading h1 {
+.contact-heading h2 {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
