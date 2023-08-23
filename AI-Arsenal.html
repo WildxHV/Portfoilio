@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Arsenal : AI Toolkit Navigator Project</title>
+    <meta name="description" content="The case study of AI Arsenal: An AI Toolkit Navigator Website, which includes the Project Overview">
+     
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+        <!-- Canonical link for any duplicate entry in crawling -->
+        <link rel="canonical" href="https://harshvardhan.works/ai-arsenal/"/>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-contents">
+            <div id="logo">
+                <a href="/">
+                    <img src="assets/png/logo.png" alt="Harshvardhan Singh Sisodia">
+                </a>
+            </div>
+            <div class="navigations">
+                <a href="#" onclick="toggleMenu(true)">
+                    <img class="show-menu" src="assets/svg/ham-menu.svg" alt="icon open">
+                </a>
+
+                <a href="#" onclick="toggleMenu(false)" class="close-menu">
+                    <img src="assets/svg/ham-menu-close.svg" alt="icon close">
+                </a>
+
+                <ul id="navitems" class="navitems">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="./index.html#about">ABOUT</a></li>
+                    <li><a href="./index.html#projects">PROJECTS</a></li>
+                    <li><a href="./index.html#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="landing">
+            <div class="landing-content">
+
+                <h1>SnapStyle</h1>
+                <p>This page contains the case study of AI Arsenal: An AI Toolkit Website, which includes the Project Overview, Tools Used and Live Links to the official product.</p>
+                <button><a href="https://ai-arsenal.xyz/">LIVE LINK</a></button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="project-section">
+        <div class="demo">
+            <img src="assets/webp/project-6.png" alt="Harshvardhan Singh Sisodia - SnapStyle">
+        </div>
+
+        <div id="project-details">
+            <div class="overview">
+                <h2>Project Overview</h2>
+                <p>I am thrilled to present the culmination of my efforts - AI Arsenal. This project was born out of the need to simplify the overwhelming landscape of AI tools.</p>
+
+                <p>With the AI Arsenal, users can bid farewell to the complexity of hunting for appropriate AI tools. This platform facilitates a streamlined journey, from exploration to selection, simplifying the decision-making process and fostering productivity.</p>
+
+                <h3>Experience & Learning</h3>
+                <p>During the development of this website, I gained valuable experience in web development, honing my skills in HTML, CSS, JavaScript, and Django to create a captivating and secure AI Tools platform. As I focused on delivering a user-friendly interface, I delved into UX design principles, understanding user behavior to optimize navigation and enhance the overall experience.</p>
+
+            </div>
+
+            <div class="tools">
+                <h2>Tools Used</h2>
+
+                <div class="skills">
+                    <ul>
+                        <li>Django</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>GIT</li>
+                        <li>Github</li>
+                        <li>Bootstrap</li>
+                        <li>AWS</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <h2>See Live</h2>
+
+                <div class="btns">
+                    <button class="btn-1"><a href="https://ai-arsenal.xyz/">LIVE LINK</a></button>
+                    <button class="btn-2"><a href="https://github.com/WildxHV/AI-Arsenal">CODE LINK</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-about">
+                <h3>Harshvardhan Singh Sisodia</h3>
+                <p>A Web Developer Crafting Engaging User Experiences
+                </p>
+
+            </div>
+            <div class="footer-social">
+                <h3>SOCIAL</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/harshvardhansinghsisodia/"><img src="assets/png/linkedin-ico.png" alt="LinkedIn"></a></li>
+                    <li><a href="https://github.com/WildxHV"><img src="assets/png/github-ico.png" alt="Github"></a></li>
+                    <li><a href="https://twitter.com/H_V_02"><img src="assets/png/twitter-ico.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="assets/png/yt-ico.png" alt="Youtube"></a></li>
+                    <li><a href="https://instagram.com/harshvardhan_.02?igshid=NGExMmI2YTkyZg=="><img src="assets/png/insta-ico.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+
+
+            <p>&#169; Copyright 2023. Made by Harshvardhan Singh Sisodia</p>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleMenu(show) {
+        var navitems = document.getElementById('navitems');
+        var showMenu = document.querySelector('.show-menu');
+        var closeMenu = document.querySelector('.close-menu');
+
+        if (show) {
+            navitems.classList.add('open');
+            showMenu.classList.add('open');
+            closeMenu.classList.add('open');
+        } else {
+            navitems.classList.remove('open');
+            showMenu.classList.remove('open');
+            closeMenu.classList.remove('open');
+        }
+    }
+
+
+</script>
+
+</html>
