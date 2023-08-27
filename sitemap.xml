@@ -2,44 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.harshvardhan.works/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
+        <lastmod>2023-08-28</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.harshvardhan.works/snapstyle/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.harshvardhan.works/blogza/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.harshvardhan.works/ai-arsenal/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.harshvardhan.works/gemlab/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.harshvardhan.works/zeststore/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.harshvardhan.works/coffee-mug/</loc>
-        <lastmod>2023-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
     </url>
 </urlset>

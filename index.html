@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
-        rel="stylesheet">
-    
-        <!-- Canonical link for any duplicate entry in crawling -->
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Harshvardhan Singh Sisodia - Web Developer | Web Designer | SEO Expert</title>
+
+	<meta name="description" content="Unlock your digital potential with my expertise in Web Development, SEO, and design. I create user-friendly sites, drive organic traffic, and craft captivating experiences. Let's transform your ideas into powerful online solutions." />
+
+	<meta name="author" content="Harshvardhan Singh Sisodia">
+
+	<!-- Canonical link for any duplicate entry in crawling -->
     <link rel="canonical" href="https://harshvardhan.works/"/>
+
 
     <!-- JSON-LD script for schema markup -->
     <script type="application/ld+json">
@@ -19,265 +22,705 @@
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Harshvardhan Singh Sisodia",
-            "jobTitle": "Computer Science Engineer | Freelancer | A Web Developer",
+            "jobTitle": "Computer Science Engineer | Freelancer | Web Developer | SEO Expert",
             "url": "https://harshvardhan.works/",
             "sameAs": [
                 "https://www.linkedin.com/in/harshvardhansinghsisodia",
                 "https://github.com/WildxHV",
-                "https://twitter.com/H_V_02"
+                "https://twitter.com/HvSisodia"
             ]
         }
     </script>
 
-    <title>Harshvardhan Singh Sisodia : Web Developer</title>
-    <meta name="description" content="Harshvardhan Singh Sisodia a Computer Science Engineer and a passionate  Web Developer Crafting Engaging User Experiences">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.ico">
+
 </head>
 
-<body>
-    <nav class="navbar">
-        <div class="navbar-contents">
-            <div id="logo">
-                <a href="/">
-                <img src="assets/png/logo.png" alt="Harshvardhan Singh Sisodia">
-                </a>
-            </div>
-            <div class="navigations">
-                <a href="#" onclick="toggleMenu(true)">
-                    <img class="show-menu" src="assets/svg/ham-menu.svg" alt="icon open menu">
-                </a>
+<body id="top">
 
-                <a href="#" onclick="toggleMenu(false)" class="close-menu">
-                    <img src="assets/svg/ham-menu-close.svg" alt="icon close menu">
-                </a>
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="row">
 
-                <ul id="navitems" class="navitems">
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section>
-        <div class="landing">
-            <div class="landing-content">
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-                <h1>Hey! I'm Harshvardhan Singh Sisodia</h1>
-                <p>A Web Developer Crafting Engaging User Experiences</p>
-                <button><a href="#projects">Projects</a></button>
-            </div>
+				<div class="logo">
+					<a href="index.html">HARSH</a>
+				</div>
 
-            <div class="socials">
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro">Home</a></li>
+						<li><a class="smoothscroll" href="#about">About</a></li>
+						<li><a class="smoothscroll" href="#resume">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#services">Services</a></li>
+						<li><a class="smoothscroll" href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
 
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/harshvardhansinghsisodia/"><img src="assets/png/linkedin-ico.png" alt="LinkedIn"></a></li>
-                    <li><a href="https://github.com/WildxHV"><img src="assets/png/github-ico.png" alt="Github"></a></li>
-                    <li><a href="https://twitter.com/H_V_02"><img src="assets/png/twitter-ico.png" alt="Twitter"></a></li>
-                    <li><a href="https://www.youtube.com/"><img src="assets/png/yt-ico.png" alt="Youtube"></a></li>
-                    <li><a href="https://instagram.com/harshvardhan_.02?igshid=NGExMmI2YTkyZg=="><img src="assets/png/insta-ico.png" alt="Instagram"></a></li>
-                </ul>
-            </div>
+		</div> <!-- /row -->
+	</header> <!-- /header -->
 
-        </div>
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
 
+		<div class="intro-overlay"></div>
 
-        <div class="about" id="about">
-            <div class="div-heading">
+		<div class="intro-content">
+			<div class="row">
 
-                <h2>ABOUT ME</h2>
-                <hr>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod
-                    deserunt eius sapiente
-                </p> -->
-            </div>
-            <div class="info">
-                <div>
-                    <h2>Get to know me!</h2>
-                    <p> I'm  a highly motivated <b>Web Developer</b> with a strong passion for crafting exceptional digital experiences. I thrive on building visually appealing and user-friendly websites and web applications.
-                    </p>
-                    <p>I have honed my skills in <b>frontend</b> and <b>backend</b> development, utilizing modern frameworks and libraries to create responsive and interactive interfaces. My attention to detail and dedication to delivering high-quality work have allowed me to contribute to the success of numerous projects.</p>
-                    <p>I am currently open to new opportunities and excited to take on new challenges. If you're looking for a dedicated and talented web developer to join your team, please feel free to reach out. Let's work together to create innovative solutions that make a lasting impact.
-                    </p>
-                    <button class="contact-btn"><a href="mailto:hsisodia56@gmail.com">CONTACT</a></button>
-                </div>
-                <div class="skills">
-                    <h2>My Skills</h2>
-                    <ul>
-                        <li>Web Development</li>
-                        <li>Django</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>GIT</li>
-                        <li>MySQL</li>
-                        <li>Web Hosting</li>
-                        <li>Python</li>
-                        <li>SAAS</li>
-                        <li>C</li>
-                        <li>C++</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+				<div class="col-twelve">
 
-        <div class="projects" id="projects">
-            <div class="div-heading">
-                <h2>PROJECTS</h2>
-                <hr>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod
-                    deserunt eius sapiente.</p> -->
+					<h5>Hello, World.</h5>
+					<h1>I'm Harshvardhan.</h1>
 
-            </div>
-            <div class="project">
-                <div class="product-img">
-                    <img src="assets/webp/project-1.png" alt="Harshvardhan Singh Sisodia - SnapStyle">
-                </div>
-                <div class="project-details">
-                    <h2>SnapStyle</h2>
-                    <p>A Ecommerce website with a user-friendly interface, which is secure and is eye-catchy. It has a wide selection of products to choose from, ensuring a convenient and enjoyable shopping experience for the users.</p>
-                    <button class="product-btn"><a href="SnapStyle.html">CASE STUDY</a></button>
-                    <button class="product-btn"><a target="_blank" href="https://hvss.pythonanywhere.com/">LIVE LINK</a></button>
-                </div>
-            </div>
+					<p class="intro-position">
+						<span>Web Developer</span>
+						<span>Web Designer</span>
+						<span>SEO Expert</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about">More About Me</a>
+
+				</div>
+
+			</div>
+		</div> <!-- /intro-content -->
+
+		<ul class="intro-social">
+			<li><a target="_blank" href="https://www.linkedin.com/in/harshvardhansinghsisodia/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a target="_blank" href="https://twitter.com/HvSisodia"><i class="fa fa-twitter"></i></a></li>
+			<li><a target="_blank" href="https://dribbble.com/WildxHV"><i class="fa fa-dribbble"></i></a></li>
+			<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+			<li><a target="_blank" href="https://github.com/WildxHV"><i class="fa fa-github"></i></a></li>
+		</ul> <!-- /intro-social -->
+		
+
+	</section> <!-- /intro -->
 
 
-            <div class="project">
-                <div class="product-img">
-                    <img src="assets/webp/project-7.png" alt="Harshvardhan Singh Sisodia - AI Arsenal">
-                </div>
-                <div class="project-details">
-                    <h2>AI Arsenal</h2>
-                    <p>A dynamic website designed to simplify the AI tool landscape. This platform elegantly organizes and presents a diverse array of AI tools, making it effortless for users to discover the solutions they seek.</p>
-                    <button class="product-btn"><a href="AI-Arsenal.html">CASE STUDY</a></button>
-                    <button class="product-btn"><a target="_blank" href="https://ai-arsenal.xyz/">LIVE LINK</a></button>
-                </div>
-            </div>
-            
-            <div class="project">
-                <div class="product-img">
-                    <img src="assets/webp/project-4.png" alt="Harshvardhan Singh Sisodia - ZestStore">
-                </div>
-                <div class="project-details">
-                    <h2>ZestStore</h2>
-                    <p>A secure and visually appealing static eCommerce website boasts an intuitive interface. It offers a diverse array of products, ensuring a seamless and delightful shopping journey for users.</p>
-                    <button class="product-btn"><a href="ZestStore.html">CASE STUDY</a></button>
-                    <button class="product-btn"><a target="_blank" href="https://zeststore.netlify.app/">LIVE LINK</a></button>
-                </div>
-            </div>
+	<!-- about section
+   ================================================== -->
+	<section id="about">
 
-            <div class="project">
-                <div class="product-img">
-                    <img src="assets/webp/project-6.png" alt="Harshvardhan Singh Sisodia - GemLab">
-                </div>
-                <div class="project-details">
-                    <h2>GemLab</h2>
-                    <p>A visually appealing gem testing lab website ensures an intuitive experience. Ensuring a smooth and enlightening experience for clients seeking accurate gemstone evaluations and quality assurance.</p>
-                    <button class="product-btn"><a href="GemLab.html">CASE STUDY</a></button>
-                    <button class="product-btn"><a target="_blank" href="https://mygemlab.netlify.app/">LIVE LINK</a></button>
-                </div>
-            </div>
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-            <div class="project">
-                <div class="product-img">
-                    <img src="assets/webp/project-2.webp" alt="Harshvardhan Singh Sisodia - Blogza">
-                </div>
-                <div class="project-details">
-                    <h2>Blogza</h2>
-                    <p>A captivating blog website, where one can explore a diverse range of articles on various topics. The platform offers an engaging community for viewers to enjoy insightful discoveries.</p>
-                    <button class="product-btn"><a href="Blogza.html">CASE STUDY</a></button>
-                    <button class="product-btn"><a target="_blank" href="https://hv02.pythonanywhere.com/">LIVE LINK</a></button>
-                </div>
-            </div>
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
 
-            <div class="project">
-                <div class="product-img">
-                    <img src="assets/webp/project-3.webp" alt="Harshvardhan Singh Sisodia - Coffee Mug">
-                </div>
-                <div class="project-details">
-                    <h2>Coffee-Mugs Clone</h2>
-                    <p>I re-created the frontend of Coffee-Mugs ui template because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.</p>
-                    <button class="product-btn"><a href="Coffee-mug.html">CASE STUDY</a></button>
-                    <button class="product-btn"><a target="_blank" href="https://hv-coffee-mugs.netlify.app/">LIVE LINK</a></button>
-                </div>
-            </div>
-        </div>
+				<div class="intro-info">
 
-        <div id="contact" id="contact">
-            <div class="contact-heading">
+					<img src="images/profile-pic.png" alt="Profile Picture">
 
-                <h2>CONTACT</h2>
-                <hr>
-                
-            </div>
+					<p class="lead">Unlock the full potential of your digital presence with my expertise in Web Development, SEO Optimization, and Web Design. As a skilled Web Developer, I create user-friendly websites and applications. As an SEO expert, I drive organic traffic and enhance online visibility. With a keen eye for design, I craft visually captivating and user-centric digital experiences. Let's collaborate to transform your ideas into powerful online solutions.</p>
+				</div>
 
-            <div class="form">
-                <form  method="POST" netlify>
-                    <label for="name">Name</label>
-                    <input type="text" name="" id="" placeholder="Enter Your Name">
+			</div>
+		</div> <!-- /section-intro -->
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+		<div class="row about-content">
 
-                    <label for="email">Subject</label>
-                    <input type="text" name="subject" id="subject" placeholder="Enter Your Subject">
+			<div class="col-six tab-full">
 
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="Enter Your Message"></textarea>
+				<h3>Profile</h3>
+				<p>Web Developer | SEO Expert | Computer Science Engineer</p>
 
-                    <button>SUBMIT</button>
-                </form>
-            </div>
-        </div>
-    </section>
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Harshvardhan Singh Sisodia</span>
+					</li>
 
-    <footer>
-        <div class="footer">
-            <div class="footer-about">
-                <h3>Harshvardhan Singh Sisodia</h3>
-                <p>A Web Developer Crafting Engaging User Experiences
-                </p>
+					<li>
+						<strong>Job:</strong>
+						<span>Freelancer, Web Developer</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>hvsisodia02@gmail.com</span>
+					</li>
 
-            </div>
-            <div class="footer-social">
-                <h3>SOCIAL</h3>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/harshvardhansinghsisodia/"><img src="assets/png/linkedin-ico.png" alt="LinkedIn"></a></li>
-                    <li><a href="https://github.com/WildxHV"><img src="assets/png/github-ico.png" alt="Github"></a></li>
-                    <li><a href="https://twitter.com/H_V_02"><img src="assets/png/twitter-ico.png" alt="Twitter"></a></li>
-                    <li><a href="https://www.youtube.com/"><img src="assets/png/yt-ico.png" alt="Youtube"></a></li>
-                    <li><a href="https://instagram.com/harshvardhan_.02?igshid=NGExMmI2YTkyZg=="><img src="assets/png/insta-ico.png" alt="Instagram"></a></li>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <div class="copyright">
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+			
+				<ul class="skills">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Django</li>
+					<li>MySQL</li>
+					<li>GIT</li>
+					<li>WrodPress</li>
+					<li>Shopify</li>
+					<li>SAAS</li>
+					<li>Python</li>
+					<li>C</li>
+					<li>C++</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
 
 
-            <p>&#169; Copyright 2023. Made by Harshvardhan Singh Sisodia</p>
-        </div>
-    </footer>
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
 
-    <script>
-        function toggleMenu(show) {
-            var navitems = document.getElementById('navitems');
-            var showMenu = document.querySelector('.show-menu');
-            var closeMenu = document.querySelector('.close-menu');
-            
-            if (show) {
-                navitems.classList.add('open');
-                showMenu.classList.add('open');
-                closeMenu.classList.add('open');
-            } else {
-                navitems.classList.remove('open');
-                showMenu.classList.remove('open');
-                closeMenu.classList.remove('open');
-            }
-        }
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Works.</h1>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row portfolio-content">
+
+			<div class="col-twelve">
+
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/project-1.png" alt="SnapStyle Webpage Snapshot">
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">SnapStyle</h3>
+										<span class="folio-types">
+											Web Design & Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/project-2.png" alt="Coffee-Mug Homepage Snapshot">
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Coffee-Mug</h3>
+										<span class="folio-types">
+											Web Design
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/project-3.png" alt="Curry Co. Aunties Landing Page Snapshot">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Curry Co. Aunties</h3>
+										<span class="folio-types">
+											Web Development & SEO
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/project-4.png" alt="AI Arsenal Home Page Snapshot">
+							<a href="#modal-04" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">AI Arsenal</h3>
+										<span class="folio-types">
+											Web Design | Web Development & SEO
+ 										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/project-5.png" alt="ZestStore Home-page Snapshot">
+							<a href="#modal-05" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">ZestStore</h3>
+										<span class="folio-types">
+											Web Design
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/project-6.png" alt="GemLab Home-page Snapshot">
+							<a href="#modal-06" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Gem Lab</h3>
+										<span class="folio-types">
+											Web Design & Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<!-- modal popups - begin
+	            ============================================================= -->
+					<div id="modal-01" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/modals/project-1.png" alt="SnapStyle Webpage Snapshot" />
+						</div>
+
+						<div class="description-box">
+							<h4>SnapStyle</h4>
+							<p>A Ecommerce website with a user-friendly interface, which is secure and is eye-catchy. It has a wide selection of products to choose from, ensuring a convenient and enjoyable shopping experience for the users.</p>
+
+							<div class="categories">Web Development | Web Design</div>
+						</div>
+
+						<div class="link-box">
+							<a target="_blank" href="https://hvss.pythonanywhere.com/">Live Link</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-01 -->
+
+					<div id="modal-02" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/modals/project-2.png" alt="Coffee-Mug Homepage Snapshot" />
+						</div>
+
+						<div class="description-box">
+							<h4>Coffee Mug</h4>
+							<p>I re-created the frontend of Coffee-Mugs ui template because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.</p>
+
+							<div class="categories">Web Design</div>
+						</div>
+
+						<div class="link-box">
+							<a target="_blank" href="https://hv-coffee-mugs.netlify.app/">Live Link</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-02 -->
+
+					<div id="modal-03" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/modals/project-3.png" alt="Curry Co. Aunties Landing Page Snapshot" />
+						</div>
+
+						<div class="description-box">
+							<h4>Curry Co. Aunties</h4>
+							<p>Created website for catering service providers. Designed A user-friendly interface and did SEO optimization for the site. </p>
+
+							<div class="categories">Web Design | Web Development | SEO</div>
+						</div>
+
+						<div class="link-box">
+							<a target="_blank" href="http://currycompany.in/">Live Link</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-03 -->
+
+					<div id="modal-04" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/modals/project-4.png" alt="AI Arsenal Home Page Snapshot" />
+						</div>
+
+						<div class="description-box">
+							<h4>AI Arsenal</h4>
+							<p>A dynamic website designed to simplify the AI tool landscape. This platform elegantly organizes and presents a diverse array of AI tools, making it effortless for users to discover the solutions they seek.</p>
+
+							<div class="categories">Web Development | SEO</div>
+						</div>
+
+						<div class="link-box">
+							<a target="_blank" href="https://ai-arsenal.xyz/">Live Link</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-04 -->
+
+					<div id="modal-05" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/modals/project-5.png" alt="ZestStore Home-page Snapshot" />
+						</div>
+
+						<div class="description-box">
+							<h4>ZestStore</h4>
+							<p>A visually appealing static eCommerce website boasts an intuitive interface. It offers a diverse array of products, ensuring a seamless and delightful shopping journey for users.</p>
+
+							<div class="categories">Web Design | Web Development</div>
+						</div>
+
+						<div class="link-box">
+							<a target="_blank" href="https://zeststore.netlify.app/">Live Link</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-05 -->
+
+					<div id="modal-06" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/modals/project-6.png" alt="GemLab Home-page Snapshot" />
+						</div>
+
+						<div class="description-box">
+							<h4>Gem Lab</h4>
+							<p>A visually appealing gem testing lab website ensures an intuitive experience. Ensuring a smooth and enlightening experience for clients seeking accurate gemstone evaluations and quality assurance.</p>
+
+							<div class="categories">Branding | Web Development</div>
+						</div>
+
+						<div class="link-box">
+							<a target="_blank" href="https://mygemlab.netlify.app/">Live Link</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-06 -->
 
 
-    </script>
+					<!-- modal popups - end
+	            ============================================================= -->
+
+				</div> <!-- /portfolio-wrapper -->
+
+			</div> <!-- /twelve -->
+
+		</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
+
+
+
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Services</h5>
+				<h1>What I Can Do For You?</h1>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row services-content">
+
+			<div id="owl-slider" class="owl-carousel services-list">
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-earth"></i></span>
+
+					<div class="service-content">
+
+						<h3>Webdesign</h3>
+
+						<p class="desc">Create stunning and user-friendly websites that leave a lasting impression. Focus on aesthetics, usability, and responsive design to ensure your website stands out and engages your audience.
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-window"></i></span>
+
+					<div class="service-content">
+
+						<h3>Web Development</h3>
+
+						<p class="desc">Build robust and scalable web applications tailored to your needs. From front-end to back-end, use cutting-edge technologies to deliver seamless and efficient solutions that drive your goals forward.
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-image"></i></span>
+
+					<div class="service-content">
+
+						<h3>SEO Optimization</h3>
+
+						<p class="desc">Optimize your website to rank higher in search engine results, increasing organic traffic and visibility. Implement proven strategies, optimize content, and enhance site structure to drive targeted visitors to your site.
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-paint-brush"></i></span>
+
+					<div class="service-content">
+
+						<h3>Branding</h3>
+
+						<p class="desc">Create a unique identity for your business that resonates with your target audience. Craft compelling brand stories, design memorable logos, and develop a consistent visual identity that sets you apart from the competition.
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>
+
+					<div class="service-content">
+
+						<h3>UI/UX Design</h3>
+
+						<p class="desc">Create intuitive and delightful user experiences that enhance customer satisfaction. Prioritize usability and user-centered design principles to ensure that your applications and websites are a pleasure to use.
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-chat"></i></span>
+
+					<div class="service-content">
+
+						<h3>Consultancy</h3>
+
+						<p class="desc">Provide strategic guidance to help you make informed decisions for your endeavors. Whether it's technology, marketing, or operations, offer valuable insights to drive growth and achieve your individual goals.
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+			</div> <!-- /services-list -->
+
+		</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row contact-form">
+
+			<div class="col-twelve">
+
+				<!-- form -->
+				<form name="contactForm" id="contactForm" method="post" netlify>
+					<fieldset>
+
+						<div class="form-field">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value=""
+								minlength="2" required="">
+						</div>
+						<div class="form-field">
+							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+								required="">
+						</div>
+						<div class="form-field">
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						</div>
+						<div class="form-field">
+							<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10"
+								cols="50" required=""></textarea>
+						</div>
+						<div class="form-field">
+							<button class="submitform">Submit</button>
+							<div id="submit-loader">
+								<div class="text-loader">Sending...</div>
+								<div class="s-loader">
+									<div class="bounce1"></div>
+									<div class="bounce2"></div>
+									<div class="bounce3"></div>
+								</div>
+							</div>
+						</div>
+
+					</fieldset>
+				</form> <!-- Form End -->
+
+				<!-- contact-warning -->
+				<div id="message-warning">
+				</div>
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+
+				<h5>Where to find me</h5>
+
+				<p>
+					Bhopal, Madhya Pradesh, INDIA
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me At</h5>
+
+				<p>hvsisodia02@gmail.com</p>
+
+			</div>
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+
+				<h5>Call Me At</h5>
+
+				<p>Phone: (+91) 8319037568<br>
+				</p>
+
+			</div>
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a target="_blank" href="https://www.linkedin.com/in/harshvardhansinghsisodia/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/HvSisodia"><i class="fa fa-twitter"></i></a></li>
+					<li><a target="_blank" href="https://dribbble.com/WildxHV"><i class="fa fa-dribbble"></i></a></li>
+					<li><a target="_blank" href="https://github.com/WildxHV"><i class="fa fa-github"></i></a></li>
+					<li><a target="_blank" href="https://github.com/WildxHV"><i class="fa-brand fa-medium"></i></a></li>
+					<i class="fa-brands fa-medium"></i>
+				</ul>
+
+			</div>
+
+			<div class="col-eight tab-full">
+				<div class="copyright">
+					<span>© Copyright 2023 </span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
